@@ -19,6 +19,85 @@ body, html{
 .topContent{
     margin-top:180px;
 }
-.hoverStyle:hover{
-    box-shadow: 0 8px 0 0 rgba(0, 115, 230, 0.2);
+.hoverStyle{
+    box-shadow: 3px 3px 10px;
 }
+.hoverStyle:hover{
+    box-shadow: 3px 3px 20px;
+}
+.navTitle{
+    font-weight: 700;
+    font-size: 24px;
+    color:#ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.navTitle-scroll{
+    color:#0069D9 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px
+}
+.navBackgroundBlack{
+    -o-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -webkit-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(0,0,0,0.0.5)!important;
+}
+.navBackgroundWhite{
+    -o-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -webkit-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #ffffff!important;
+}
+.navItemWhite{
+    color:#ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navItemBlack{
+    color:#000000 !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.des{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000000;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* Summery part overlay */
+.summeryBanner{
+    background:url('/src/asset/images/banner.jpg') no-repeat;
+    background-attachment: fixed;
+    min-height: 350px;
+    width: 100%;
+    background-size:cover;
+    background-position:bottom center;
+    position: relative;
+    margin: 110px 0;
+}
+
+.summeryOverlay{
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.icon-check{
+    color:blue;
+    font-size:16px;
+}
+/* Summery part overlay */

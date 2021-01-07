@@ -18,7 +18,7 @@ class Services extends Component {
                             <Card.Body>
                                 <img style={{ width:'100', height:'100' }} src={pirat} alt=""/>
                                 <h2>Web Development</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae at adipisci recusandae officia porro nisi cupiditate repellendus hic in.</p>
+                                <p className="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae at adipisci recusandae officia porro nisi cupiditate repellendus hic in.</p>
                             </Card.Body>
                          </Card>
                          </Col>
@@ -27,7 +27,7 @@ class Services extends Component {
                             <Card.Body>
                                 <img style={{ width:'100', height:'100' }} src={pirat} alt=""/>
                                 <h2>Web Development</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae at adipisci recusandae officia porro nisi cupiditate repellendus hic in.</p>
+                                <p className="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae at adipisci recusandae officia porro nisi cupiditate repellendus hic in.</p>
                             </Card.Body>
                          </Card>
                      </Col>
@@ -36,7 +36,7 @@ class Services extends Component {
                             <Card.Body>
                                 <img style={{ width:'100', height:'100' }} src={pirat} alt=""/>
                                 <h2>Web Development</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae at adipisci recusandae officia porro nisi cupiditate repellendus hic in.</p>
+                                <p className="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae at adipisci recusandae officia porro nisi cupiditate repellendus hic in.</p>
                             </Card.Body>
                          </Card>
                      </Col>
