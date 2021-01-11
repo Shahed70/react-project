@@ -15,6 +15,8 @@
     "react-scripts": "4.0.1",
     "react-visibility-sensor": "^5.1.1",
     "recharts": "2.0.0-beta.8",
+    "redux": "^4.0.5",
+    "video-react": "^0.14.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
