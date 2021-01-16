@@ -41,9 +41,8 @@ class Summery extends Component {
                     </Col>
                   </Row>
                 </Col>
-                <Col lg={4} md={6}>
+                <Col lg={4} md={6} className="mb-2 d-non">
                   <Card
-                    style={{ width: "18rem" }}
                     className="text-dark mt-5 pl-1"
                   >
                     <Card.Body>
@@ -52,21 +51,21 @@ class Summery extends Component {
                       </Card.Title>
                       <Card.Text>
                         <ul>
-                          <p className="icon-chec">
-                            <i className="fas fa-check-circle icon-check"></i>{" "}
+                          <p>
+                            <i className="fas fa-check-circle icon-check"></i>
                             Lorem, ipsum dolor.
                           </p>
-                          <p className="icon-chec">
-                            <i className="fas fa-check-circle icon-check"></i>{" "}
-                            Lorem, ipsum.{" "}
+                          <p >
+                            <i className="fas fa-check-circle icon-check"></i>
+                            Lorem, ipsum.
                           </p>
-                          <p className="icon-chec">
-                            <i className="fas fa-check-circle icon-check"></i>{" "}
-                            Lorem, ipsum.{" "}
+                          <p>
+                            <i className="fas fa-check-circle icon-check"></i>
+                            Lorem, ipsum.
                           </p>
-                          <p className="icon-chec">
-                            <i className="fas fa-check-circle icon-check"></i>{" "}
-                            Lorem, ipsum.{" "}
+                          <p>
+                            <i className="fas fa-check-circle icon-check"></i>
+                            Lorem, ipsum.
                           </p>
                         </ul>
                       </Card.Text>

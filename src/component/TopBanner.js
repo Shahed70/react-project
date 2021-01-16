@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap'
 import '../asset/css/style.css'
 import TopNav from './TopNav'
-class TopBanner extends Component {
+export class TopBanner extends Component {
     render() {
         return (
             <>

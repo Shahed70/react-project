@@ -24,7 +24,7 @@ class Video extends Component {
           <Row>
             <Col>
               <div className="modalCard text-center">
-                <h2 className="modalTitle">How I DO</h2>
+                <h2 className="text-primary display-4">How I DO</h2>
                 <p className="desc">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
                   nemo doloribus impedit distinctio, excepturi fugit optio

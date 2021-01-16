@@ -8,6 +8,7 @@ class TopNav extends Component {
         this.state={
           navTitle:"navTitle",
           navBackground:"navBackgroundBlack",
+          toggleNav:"dark",
           whiteLogo:[whiteLogo],
           navStyle:"navItemWhite"
         }
@@ -18,7 +19,7 @@ class TopNav extends Component {
              navTitle:"navTitle-scroll",
               navBackground:"navBackgroundWhite",
               navStyle:"navItemBlack",
-               
+              toggleNav:"light",
               whiteLogo:[blueLogo] 
             })
          }else if(window.scrollY<100){
@@ -26,6 +27,7 @@ class TopNav extends Component {
              navTitle:"navTitle", 
              navBackground:"navBackgroundBlack",
              navStyle:"navItemWhite",
+             toggleNav:"dark",
               whiteLogo:[whiteLogo]
             })
          }
@@ -36,7 +38,7 @@ class TopNav extends Component {
   render() {
     return (
       <>
-        <Navbar fixed="top" variant="dark" expand="lg" className={this.state.navBackground}>
+        <Navbar fixed="top" variant={this.state.toggleNav} expand="lg" className={this.state.navBackground}>
           <Navbar.Brand className={this.state.navTitle} href="#home"> <img src={this.state.whiteLogo} alt=""/> TANZIB SHAHED</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

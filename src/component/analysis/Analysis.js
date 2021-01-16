@@ -5,17 +5,17 @@ class Analysis extends Component {
     render() {
         return (
             <>
-               <Container className="my-5 text-center">
-                   <Row className="my-5 py-5">
+               <Container className=" text-center">
+                   <Row>
                        <Col>
-                           <h1 className="display-4 text-uppercase text-primary">Technology Used</h1>
+                           <h1 className="display-4 text-uppercase text-primary my-3">Technology Used</h1>
                        </Col>
                    </Row>
                    <Row>
-                       <Col lg={6} style={{ width:'100%', height:'300px'}} >
+                       <Col lg={6} style={{ width:'100%', height:'300px'}} className="pb-4" >
                             <Chart />
                        </Col>
-                       <Col lg={6}>
+                       <Col lg={6} className="pt-5">
                                 <p className="des">To build native android apps i use Java as well as kotline       mainly. React JS is used for cross platform mobile application. I   use MySQL database for relational database system. To build NoSQL   application i use MongoDB.</p>
                                 <p className="des">
                                 Firebase database system is used where it is necessary to provide realtime data flow facilities. I always build dynamic application. Admin panel is the heart of such kinds of application. I always try to provide sufficient features in admin panel to dominate application.</p>

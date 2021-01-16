@@ -5,12 +5,12 @@ class recentProject extends Component {
   render() {
     return (
       <>
-        <Container className="my-5 text-center">
-        <h1 className="projectTitle">Recent Projects</h1>
+        <Container className="text-center recent-project">
+        <h1 className="projectTitle text-primary display-4">Recent Projects</h1>
           <Row >
-            <Col lg={4} md={4} sm={12}>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img className="img-fluid" variant="top"  src={card} />
+            <Col lg={4} md={4} sm={12} className="my-2">
+              <Card>
+                <Card.Img className="img-fluid"  src={card} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
@@ -21,9 +21,9 @@ class recentProject extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={4} sm={12} className="">
-            <Card style={{ width: "18rem" }}>
-                <Card.Img className="img-fluid" variant="top" src={card} />
+            <Col lg={4} md={4} sm={12} className="my-2">
+            <Card>
+                <Card.Img className="img-fluid"  src={card} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
@@ -34,9 +34,9 @@ class recentProject extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={4} sm={12}>
-            <Card style={{ width: "18rem" }}>
-                <Card.Img className="img-fluid" variant="top" src={card} />
+            <Col lg={4} md={4} sm={12} className="my-2">
+            <Card>
+                <Card.Img className="img-fluid"  src={card} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
